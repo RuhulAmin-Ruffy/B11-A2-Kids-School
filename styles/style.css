@@ -68,6 +68,8 @@ body{
     padding-right: 15px;
 }
 
+
+
 /* ------------------hero section style ------------------ */
 .hero-section{
     margin: 0 140px;
@@ -104,7 +106,74 @@ body{
 }
 
 
+/* -----------------------Curriculum section style------------------------- */
+.curriculum-section-title{
+    font-size: 2.9rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.curriculum-section-container{
+    margin: 0%;
+     background-image: url(../assets/bg.png);
+     background-repeat: no-repeat;
 
+}
+.curriculum-card{
+    height: 476px;
+    width: 365px;
+    padding: 30px;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    box-shadow: inset 0 2px 16px rgba(0, 0, 0, 0.05);
+}
+.curriculum-card-container{
+    margin: 0 140px;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+}
+.curriculum-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.curriculum-des{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #808080; 
+}
+.kinder-read-more{
+    color: #64C8FF;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.elementary-read-more{
+    color: #F0AA00;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.middle-read-more{
+    color: #8700FF;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.kinder-card{
+    background-image: linear-gradient(to bottom, rgba(222, 245, 255, 1), #ffff);
+}
+.elementary-card{
+    background-image: linear-gradient(to bottom, rgba(255, 244, 220, 1), #ffff);
+}
+.middle-card{
+    background-image: linear-gradient(to bottom, rgba(242, 232, 255, 1), #ffff);
+}
+.arrows-btn{
+    margin: 70px auto;
+    justify-content: space-around;
+}
 
 
 
@@ -158,5 +227,16 @@ body{
     }
     .hero-description{
         text-align: center;
+    }
+
+    /* -----------------------Curriculum section style------------------------- */
+    .curriculum-card-container{
+        flex-direction: column;
+    }
+    .arrows-btn{
+        display: none;
+    }
+    .curriculum-section-container{
+        background-repeat: repeat;
     }
 }
