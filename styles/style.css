@@ -141,9 +141,9 @@ body{
 }
 .curriculum-card-container{
     margin: 0 140px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 100px;
+    gap: 80px;
 }
 .curriculum-title{
     font-size: 1.5rem;
