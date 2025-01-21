@@ -29,6 +29,9 @@ body{
 .logo{
     align-items: center;
 }
+.logo-icon{
+    margin: 0;
+}
 .logo-text{
     padding-left: 10px;
     font-size: 2rem;
