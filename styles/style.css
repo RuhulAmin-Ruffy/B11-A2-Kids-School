@@ -95,7 +95,7 @@ body{
     color: #01ACFD;
 }
 .hero-description{
-    max-width: 640px;
+    max-width: 800px;
     font-size: 1.25rem;
     color: black;
     font-weight: 400;
@@ -141,9 +141,9 @@ body{
 }
 .curriculum-card-container{
     margin: 0 140px;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    gap: 80px;
+    gap: 100px;
 }
 .curriculum-title{
     font-size: 1.5rem;
