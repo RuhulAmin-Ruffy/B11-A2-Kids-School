@@ -77,7 +77,7 @@ body{
     margin: 0 140px;
     gap: 50px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 .hero-kid-image{
     max-width: 500px;
@@ -141,7 +141,7 @@ body{
 }
 .curriculum-card-container{
     margin: 0 140px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 80px;
 }
