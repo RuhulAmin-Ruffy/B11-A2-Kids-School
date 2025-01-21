@@ -30,6 +30,7 @@ body{
     align-items: center;
 }
 .logo-text{
+    padding-left: 10px;
     font-size: 2rem;
     margin: 0%;
 }
@@ -91,6 +92,14 @@ body{
     font-size: 1.25rem;
     color: black;
     font-weight: 400;
+}
+.hero-content{
+    max-width: 640px;
+    max-height: 331px;
+}
+.hero-kid-image{
+    max-width: 468px;
+    max-height: 575px;
 }
 .hero-kid{
     width: 100%;
