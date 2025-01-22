@@ -351,6 +351,7 @@ body{
 
 
 /* -------------------- responsive media queries for mobile screen -------------------- */
+
 @media screen and (max-width: 576px) {
     .navbar{
         margin: 16px 0 16px 0;
@@ -407,6 +408,10 @@ body{
     }
     .curriculum-section-container{
         background-repeat: repeat;
+    }
+    .curriculum-card{
+        max-height: 470px;
+        max-width: 315px;
     }
 
 
